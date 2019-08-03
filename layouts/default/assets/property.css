@@ -1,0 +1,244 @@
+
+
+.search-property {
+    padding: 70px 0
+}
+
+.search-property .form-group {
+    margin-bottom: 20px
+}
+
+.property {
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.14);
+    background: #333333;
+    position: relative;
+    z-index: 1
+}
+
+.property::before {
+    content: '';
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background: none;
+    display: block;
+    border: 4px solid transparent;
+    z-index: -1;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s
+}
+
+.property:hover .overlay {
+    opacity: 1
+}
+
+.property:hover .overlay a {
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s
+}
+
+.property:hover::before {
+    border-color: #5989e5
+}
+
+.property:hover {
+    border-color: #5989e5
+}
+
+.property .image {
+    max-height: 230px;
+    overflow: hidden;
+    position: relative
+}
+
+.property .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 34, 0.96);
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.property .overlay a {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px)
+}
+
+.property .info {
+    padding: 30px
+}
+
+
+
+.property .price {
+    font-size: 1.4rem
+}
+
+.property .price small {
+    font-size: 0.9rem
+}
+
+
+.property .statistics .item {
+    width: 33.333%
+}
+
+.property .statistics span {
+    font-size: 0.9rem
+}
+
+.property .property-footer {
+    padding: 30px
+}
+
+.property .property-footer .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px
+}
+
+.property .property-footer .text {
+    color: #999
+}
+
+.property .property-footer .text strong {
+    line-height: 0.8rem;
+    font-weight: 500
+}
+
+.property .property-footer .text span {
+    font-size: 0.8rem
+}
+
+.property .property-footer a.favourite {
+    font-size: 1.5rem;
+    color: #202020 !important
+}
+
+.property .property-footer a.favourite:hover,
+.property .property-footer a.favourite:focus {
+    color: #5989e5 !important
+}
+
+.apartments .swiper-slide {
+    padding: 5px
+}
+
+.featured-properties .image {
+    max-height: 450px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+
+
+.property-listing-item {
+    margin-top: 40px
+}
+
+.property-listing-item .image {
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.property-listing-item .image img {
+    width: 100%
+}
+
+.property-listing-item .image .price {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #5989e5;
+    padding: 5px 20px;
+    color: #fff
+}
+
+.property-listing-item.list-full-width .image {
+    height: 320px
+}
+
+.property-listing-item.list-full-width .image img {
+    width: 100%
+}
+
+.property-listing-item .info {
+    padding: 20px;
+    padding-bottom: 0;
+    background: #383838
+}
+
+.property-listing-item .info::after {
+    content: '';
+    background: #555;
+    width: 100%;
+    height: 1px;
+    display: block;
+    margin-top: 20px
+}
+
+.property-listing-item .info a {
+    display: block
+}
+
+.property-listing-item .info .badge {
+    margin-bottom: 10px
+}
+
+.property-listing-item .info p {
+    font-size: 0.95rem;
+    color: #eee
+}
+
+.property-listing-item .info .address {
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: #999
+}
+
+
+.property-listing-item ul i {
+    color: #fff;
+    margin-right: 5px
+}
+
+.property-listing-item .inner {
+    height: 80%;
+    padding: 10px
+}
+
+.property-listing-footer {
+    font-size: 0.9rem
+}
+
+
+
